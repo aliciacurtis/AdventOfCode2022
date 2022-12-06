@@ -62,7 +62,6 @@ for stack in stacks:
         temp_list = []
         for num in range(len(current_list), len(current_list) - num_to_move, -1):
             temp_list.append(current_list[num - 1])
-        for num in range(num_to_move):
             list_of_stacks[start_stack - 1].pop()
         for num in range(len(temp_list), len(temp_list) - num_to_move, -1):
             list_of_stacks[end_stack - 1].append(temp_list[num - 1])
