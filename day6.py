@@ -21,6 +21,7 @@ for num in range(len(stream_list) - 15):
         for number in range(1, 14 - numb):
             if stream_list[num + numb] == stream_list[num + numb + number]:
                 match = True
+                break
     if match:
         match = False
     else:
