@@ -67,12 +67,6 @@ for stack in stacks:
         for num in range(len(temp_list), len(temp_list) - num_to_move, -1):
             list_of_stacks[end_stack - 1].append(temp_list[num - 1])
 
-print(stack_1)
-print(stack_2)
-print(stack_3)
-print(stack_4)
-print(stack_5)
-print(stack_6)
-print(stack_7)
-print(stack_8)
-print(stack_9)
+print(stack_1[len(stack_1) - 1] + stack_2[len(stack_2) - 1] + stack_3[len(stack_3) - 1]
+      + stack_4[len(stack_4) - 1] + stack_5[len(stack_5) - 1] + stack_6[len(stack_6) - 1]
+      + stack_7[len(stack_7) - 1] + stack_8[len(stack_8) - 1] + stack_9[len(stack_9) - 1])
