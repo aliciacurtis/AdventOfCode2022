@@ -6,7 +6,6 @@ list_of_stacks = [[], [], [], [], [], [], [], [], []]
 for stack in stacks:
     num = 0
     list_no = 0
-    list_position = 1
     while stack[num] == '[':
         for x in range(1, len(stack), 4):
             if stack[x] != ' ':
